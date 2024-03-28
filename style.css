@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background: linear-gradient(135deg, #06066e, #b607e2);
+    min-height: 100vh;
+    padding: 10px;
+}
+
+
+.todo-app {
+    background-color: white;
+    margin: 140px auto 20px;
+    width: 100%;
+    max-width: 340px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.todo-app h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.input{
+    margin-top: 20px;
+}
+.field {
+    height: 30px;
+    background-color: rgb(43, 30, 30);
+    border-radius: 7px;
+    border: none;
+    color: rgb(247, 244, 244);
+    padding: 10px;
+}
+
+.add {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(13, 4, 51);
+    color: rgb(239, 243, 14);
+}
+
+.add:hover {
+    background-color: #dfdfe8;
+    color: rgb(4, 108, 2);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#listContainer {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+span {
+    
+    position: absolute;
+    left: 900px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding-left: 4.5px;
+   color: white;
+    background-color: grey;
+}
+
+span:hover {
+    background-color: black;
+    color: white;
+}
+
+
+li {
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+   
+}
+
